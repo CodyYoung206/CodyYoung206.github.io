@@ -11,7 +11,10 @@ The importance of having a growth mindset cannot be easily undermined. Significa
 ### If the tips listed above cause distress 
 ## EMBRACE THE SUCK 
 
-# It is time to grow.
+# It is time to grow and you do not need to do this all alone.
+Get off the couch and head over to [SYKAPro.com](https://sykapro.com) and schdule your free introductory consultation.
+
+
 
 ```
 
