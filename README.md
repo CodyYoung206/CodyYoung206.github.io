@@ -1,12 +1,17 @@
-## Growth Mindset 101
+# Growth Mindset 101
 
-### GROWTH MINDSET
+## GROWTH MINDSET
 
 The importance of having a growth mindset cannot be easily undermined. Significant stagnation is almost always guarneteeed to occur when failing to follow these three simple steps
 
 - Embrace challenges
 - Learning from mistakes
 - Being inspired by the success of others
+
+### If the tips listed above cause distress 
+## EMBRACE THE SUCK 
+
+# It is time to grow.
 
 ```
 
