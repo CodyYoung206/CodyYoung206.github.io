@@ -1,7 +1,9 @@
-READING NOTES - 
+##READING NOTE
 
-*Choosing a text editor
-It is important to pick the correct text editor and this is a personal prefernece
+#Choosing a text editor
+It is important to pick the a text editor that feels right to you. They are all mostly identical but have slight differences in features 
+, look, and feel. This is a personal preference, and you can see some pros/cons in your selection.
+
 ** features to look for 
 -Code completion
 -Syntex Highlighting
@@ -9,7 +11,6 @@ It is important to pick the correct text editor and this is a personal prefernec
 -Extensions
 --Emmet
 
-Compare features of top text editors and IDE
 1.Notepad ++  
 -windows only
 -syntax highlighting 
