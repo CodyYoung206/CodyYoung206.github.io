@@ -62,3 +62,172 @@ Textwrangler is incorporated into BB Edit
 -Debugger
 All in one software package
 Different Classifications of Text Editors
+
+## Terminal Commands Cheat Sheet
+-Previously entered commands are stored and entered quickly by navigating the history list with arrow keys
+-PWD - Print working directory, Where are we?
+-ls  - Lists whats in the directory
+ls [options] [location]
+ls -l long listing option
+normal file (-) Directory (d)
+ls (/etc)  Lists contents of that directories
+--- (...) indicates cut out some of the output for brevities sake
+
+Path is how you get to a specific file, folder, or location
+1. Absolute 
+2. Relative
+Highest level of the linux system is the root directory (/) single slash indicates a root directory
+1. ls documents
+2. ls /home/cody/documents 
+
+~ (tilde) shortcut for home directory ... if /home/cody then /home/code/documents = ~/documents
+. (dot) reference to current directory ./documents
+.. ( dotdot) reference to parent directory ... if in /home/cody then run command ls../../ and this would do listing of the root dir
+
+cd Change Directory
+cd[location] , without any arguments "cd" always takes you back to home directory.
+specified as a either realtive or absolute path it can include .. and . and /
+... cd / or cd ../../
+Tab completes 
+/etc  stores config files for system
+/var/log stores log files for various system programs 
+/bin the location of several commonly used programs
+/usr/bin another 
+ 
+##Remember
+###-File[path] shows what type of file the specificied file is (doc,img,...)
+###- Linux is CASE Sensitive
+### Pay attention to SPACES in names
+###- QUOTES , single or double are both useable
+###- ESCAPE character \ backslash nullifys meaning of next character ....
+user@bash: cd Holiday\ Photos 
+user@bash: pwd
+/home/cody/documents/Holiday Photos
+### Hidden files and directories ... if file name begines with a . (fullstop) it is concidered hidden
+to make hidden put a . at the begining 
+
+Manual pages 
+man <command to look up>
+set of pages that explain ever command available on the system indlcuding what they do.
+Searching
+
+File Manipulation 
+mkdir [options] <directory>  creates a directory 
+mkdir /home/cody/foo
+mkdir ./blah
+mkdir ~/linuxtutorialwork/dir2
+-p creates parent dir as needed 
+-v tells what its doing
+
+rmdir [options] <directory>  removes directory ( must be empty to be removed )
+touch [options] <file name> create a blank file
+cp [options] <source> <destination> copies a file or directory
+mv [options] <source> <destination> moves a file or directory, also used to rename
+rm will remove a file ( non empty directory) rm [options] <file> -r option removes included files/dir
+Vi command line text editor 
+vi <file>
+### saving and exiting 
+ZZ capitals - save and exit
+:ql discard all changes since last save and exit
+:w save file, and do not exit
+:wq save file and exit
+
+Navigating a file in Vi
+Arrow keys - move the cursor around
+j, k, h, l - move the cursor down, up, left and right (similar to the arrow keys)
+^ (caret) - move cursor to beginning of current line
+$ - move cursor to end of the current line
+nG - move to the nth line (eg 5G moves to 5th line)
+G - move to the last line
+w - move to the beginning of the next word
+nw - move forward n word (eg 2w moves two words forwards)
+b - move to the beginning of the previous word
+nb - move back n word
+{ - move backward one paragraph
+} - move forward one paragraph
+
+Deleting content in Vi
+
+x - delete a single character
+nx - delete n characters (eg 5x deletes five characters)
+dd - delete the current line
+dn - d followed by a movement command. Delete to where the movement command would have taken you. (eg d5w means delete 5 words)
+
+Undoing in Vi
+u- undo last action
+U- capital  , undo all changes to current line
+
+Even more in Vi
+copy/paste
+search and replace
+buffers
+markers
+ranges
+settings
+
+Wildcards in Vi
+* - represents zero or more characters
+? - represents a single character
+[] - represents a range of characters
+
+Permissions 
+r - read
+w - write
+x - execute 
+owner , group, others
+to view , use long list option of command ls   ls -l[path]
+
+root user and owner may change persmisions 
+your home directory is your own personal space on the system , keep it secure
+
+head [-number off lines to print] [path]
+tail is opposite
+sort[-options] [path] by default sorts alphabetically but can do more in manual page
+nl [options] [path] number lines
+wc - word count
+cut [-options][path]
+sed <expression> [path] stream editor , search and replace  ... s/search/replace/g
+CTRL + C will cancel program
+uniq [options] [path] uniquw , removes duplicate lines 
+tac [path] print last line first, through to the first line
+awk data extraction/reporting tool
+diff compapres data
+
+
+GREP and REGULAR expressions
+
+egrep [command line options] <pattern> [path]
+. (dot) - a single character.
+? - the preceding character matches 0 or 1 times only.
+* - the preceding character matches 0 or more times.
++ - the preceding character matches 1 or more times.
+{n} - the preceding character matches exactly n times.
+{n,m} - the preceding character matches at least n times and not more than m times.
+[agd] - the character is one of those included within the square brackets.
+[^agd] - the character is not one of those included within the square brackets.
+[c-f] - the dash within the square brackets operates as a range. In this case it means either the letters c, d, e or f.
+() - allows us to group several characters to behave as one.
+| (pipe symbol) - the logical OR operation.
+^ - matches the beginning of the line.
+$ - matches the end of the line.
+
+PIPING AND REDIRECTING
+
+STDIN (0) - Standard input (data fed into the program)
+STDOUT (1) - Standard output (data printed by the program, defaults to the terminal)
+STDERR (2) - Standard error (for error messages, also defaults to the terminal)
+| piping feeeds output from program on left to the input of the program on the right
+
+Process managment 
+top - snapshot of what is running
+ps [aux] aurgument aux shows complete system view
+kill [signal] <PID>
+ctrl + alt +F<consol>f7 is gui
+jobs - lits currently running background jobs 
+sleep - waits number of seconds then quits
+fg <job number>  brings background jobs foreward
+SCRIPTING
+
+
+
+man -k <search term>
