@@ -1,0 +1,63 @@
+READING NOTES - 
+
+*Choosing a text editor
+It is important to pick the correct text editor and this is a personal prefernece
+** features to look for 
+-Code completion
+-Syntex Highlighting
+-Themes
+-Extensions
+--Emmet
+
+Compare features of top text editors and IDE
+1.Notepad ++  
+-windows only
+-syntax highlighting 
+-                                ncode completion 
+--word completion
+--function completion
+-online community
+-zoom
+
+2.*TextWrangler /BB Edit
+-Mac only
+-Free
+Textwrangler is incorporated into BB Edit
+-Pay
+
+3.*Visual Studio Code 
+-Free
+-Emmet Included
+-Windows , Mac, Linux
+-Syntax Highlighting
+-Themes
+-Extentions
+-Code completion
+
+4.*Atom 
+-Windows, Mac, Linux
+-Free 
+-Syntax Highlighting 
+-Themes
+-Extentions
+
+5.*Brackets
+-Free
+-Windows, Mac, Linux 
+-HTML , CSS, JavaScript
+-Live Preview 
+
+6.*Sublime Text 3
+-Free or $70
+-Syntax Highlighting
+-Code completion
+-Themes
+-Extensions
+
+IDE is and Integrated Development Environment 
+-Text Editor
+-File manager
+-Compiler
+-Debugger
+All in one software package
+Different Classifications of Text Editors
